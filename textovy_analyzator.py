@@ -6,6 +6,7 @@ Textový analyzátor
 global samohlasky, souhlasky
 samohlasky = ("a","e","i","o","u","y", "á", "é","í","ó","ú","ý")
 souhlasky = ("h","k","r","d","t","n","b","f","l","m","p","s","v","z", "ž","š","č","ř","c","j","ď","ť","ň", "g")
+
 def uvod():
     text = "Vitejte v textovém analyzátoru".upper()
     stred=text.center(40)
